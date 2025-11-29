@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e}from"./app-fLu41bud.js";const c={};function n(o,s){return e(),a("div")}const d=t(c,[["render",n]]),_=JSON.parse('{"path":"/notes/backend/database.html","title":"","lang":"zh-CN","frontmatter":{},"git":{},"filePathRelative":"notes/backend/database.md"}');export{d as comp,_ as data};
