@@ -1,5 +1,5 @@
-import { GitContributors } from "C:/Users/46192/Desktop/Wiki/pipidi_wiki/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
-import { GitChangelog } from "C:/Users/46192/Desktop/Wiki/pipidi_wiki/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
+import { GitContributors } from "C:/Users/46192/Desktop/Wiki/repo/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
+import { GitChangelog } from "C:/Users/46192/Desktop/Wiki/repo/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
 
 export default {
   enhance: ({ app }) => {

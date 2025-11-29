@@ -1,0 +1,154 @@
+// 自定义主题样式
+
+// 颜色变量
+:root {
+  --c-brand: #3eaf7c;
+  --c-brand-light: #4abf8a;
+}
+
+// 首页英雄区域优化
+.vp-hero {
+  text-align: center;
+  padding: 4rem 0 2rem;
+  
+  .vp-hero-image {
+    max-height: 200px;
+    margin-bottom: 1.5rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #3eaf7c, #2d8c62);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .vp-hero-description {
+    font-size: 1.4rem;
+    color: var(--c-text);
+    margin-bottom: 2rem;
+    opacity: 0.8;
+  }
+  
+  .vp-hero-actions {
+    margin-top: 2rem;
+    
+    .vp-hero-action-button {
+      border-radius: 8px;
+      font-weight: 600;
+      padding: 0.75rem 1.5rem;
+      margin: 0 0.5rem;
+      
+      &.primary {
+        background: linear-gradient(135deg, var(--c-brand), var(--c-brand-light));
+        border: none;
+        
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(62, 175, 124, 0.3);
+        }
+      }
+    }
+  }
+}
+
+// 特性区域优化
+.vp-features {
+  border-top: 1px solid var(--c-border);
+  padding: 3rem 0;
+  
+  .vp-feature {
+    text-align: center;
+    padding: 1.5rem;
+    
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+    
+    p {
+      color: var(--c-text-light);
+      line-height: 1.6;
+    }
+  }
+}
+
+// 导航栏优化
+.vp-navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+  
+  .dark & {
+    background: rgba(27, 27, 31, 0.95);
+  }
+  
+  .vp-navbar-item {
+    font-weight: 500;
+    
+    .route-link {
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background: var(--c-brand);
+        color: white;
+      }
+    }
+  }
+}
+
+// 侧边栏优化
+.vp-sidebar {
+  .vp-sidebar-group {
+    .vp-sidebar-heading {
+      font-weight: 600;
+      color: var(--c-brand);
+    }
+    
+    .vp-sidebar-link {
+      border-radius: 4px;
+      margin: 2px 0;
+      
+      &.active {
+        background: var(--c-brand);
+        color: white;
+      }
+      
+      &:hover {
+        background: var(--c-bg-light);
+      }
+    }
+  }
+}
+
+// 内容区域优化
+.content-container {
+  max-width: 1200px;
+}
+
+// 代码块优化
+div[class*="language-"] {
+  border-radius: 8px;
+  
+  &::before {
+    font-weight: 600;
+  }
+}
+
+// 响应式优化
+@media (max-width: 719px) {
+  .vp-hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .vp-hero .vp-hero-description {
+    font-size: 1.1rem;
+  }
+}
