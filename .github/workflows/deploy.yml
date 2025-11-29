@@ -1,40 +1,29 @@
 # This is a workflow to Deploy VuePress site to Pages
 
-name: Deploy VuePress site to Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master]
+    branches: [ "master" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: npm
-          
-      - name: Install dependencies
-        run: npm ci
-        
-      - name: Build
-        run: npm run docs:build
-        
+        uses: actions/checkout@v4
       - name: Setup Pages
-        uses: actions/configure-pages@v2
-        
+        uses: actions/configure-pages@v4
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2   # 暂时降级到v2
         with:
-          path: docs/.vuepress/dist
-          
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
