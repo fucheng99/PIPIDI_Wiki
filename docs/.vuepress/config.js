@@ -37,9 +37,10 @@ export default defineUserConfig({
       { 
         text: '📚 笔记', 
         children: [
-          { text: '前端开发', link: '/notes/frontend/' },
-          { text: '后端开发', link: '/notes/backend/' },
-          { text: '工具使用', link: '/notes/tools/' },
+          { text: 'IC前端开发', link: '/notes/frontend/' },
+          { text: 'IC后端开发', link: '/notes/backend/' },
+          { text: 'IC测试开发', link: '/notes/ICtest/' },
+          { text: '工具使用', link: '/notes/tools/' }
         ]
       },
       { text: '👤 关于', link: '/about.md' },
@@ -50,7 +51,7 @@ export default defineUserConfig({
 sidebar: {
   '/notes/frontend/': [
     {
-      text: '前端开发',
+      text: 'IC前端开发',
       collapsible: true,
       children: [
         '/notes/frontend/vue.md',
@@ -61,12 +62,23 @@ sidebar: {
   ],
   '/notes/backend/': [
     {
-      text: '后端开发',
+      text: 'IC后端开发',
       collapsible: true,
       children: [
         '/notes/backend/nodejs.md',
         '/notes/backend/database.md',
         '/notes/backend/api.md',
+      ]
+    }
+  ],
+    '/notes/ICtest/': [
+    {
+      text: 'IC测试开发',
+      collapsible: true,
+      children: [
+        '/notes/ICtest/vue.md',
+        '/notes/ICtest/react.md',
+        '/notes/ICtest/javascript.md',
       ]
     }
   ],
@@ -89,6 +101,7 @@ sidebar: {
         '/notes/README.md',
         '/notes/frontend/README.md',
         '/notes/backend/README.md',
+        '/notes/ICtest/README.md',
         '/notes/tools/README.md',
       ]
     }
@@ -99,7 +112,7 @@ sidebar: {
 
     // 主题功能配置
     logo: '/images/logo1.png',
-    repo: 'https://github.com/fucheng99/PIPIDI_Wiki',
+    repo: null,
     docsDir: 'docs',
     editLink: false,
     
