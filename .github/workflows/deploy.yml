@@ -4,7 +4,7 @@ name: Deploy VuePress site to Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   deploy:
