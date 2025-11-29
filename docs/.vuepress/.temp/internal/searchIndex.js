@@ -68,6 +68,42 @@ export const SEARCH_INDEX = [
   {
     "title": "",
     "headers": [],
+    "path": "/notes/backend/api.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/notes/backend/database.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/notes/backend/nodejs.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "后端开发",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "link": "#目录",
+        "children": []
+      }
+    ],
+    "path": "/notes/backend/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/notes/frontend/javascript.html",
     "pathLocale": "/",
     "extraFields": []
@@ -114,42 +150,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/notes/frontend/vue.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/notes/backend/api.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/notes/backend/database.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/notes/backend/nodejs.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "后端开发",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "link": "#目录",
-        "children": []
-      }
-    ],
-    "path": "/notes/backend/",
     "pathLocale": "/",
     "extraFields": []
   },
