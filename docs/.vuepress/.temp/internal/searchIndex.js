@@ -116,7 +116,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "前端开发",
+    "title": "ICTest开发",
     "headers": [
       {
         "level": 2,
@@ -156,6 +156,58 @@ export const SEARCH_INDEX = [
   {
     "title": "",
     "headers": [],
+    "path": "/notes/ICtest/javascript.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/notes/ICtest/react.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "IC测试开发",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "link": "#目录",
+        "children": []
+      }
+    ],
+    "path": "/notes/ICtest/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue.js 学习笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Vue 3 新特性",
+        "slug": "vue-3-新特性",
+        "link": "#vue-3-新特性",
+        "children": [
+          {
+            "level": 3,
+            "title": "Composition API",
+            "slug": "composition-api",
+            "link": "#composition-api",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/ICtest/vue.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/notes/tools/docker.html",
     "pathLocale": "/",
     "extraFields": []
@@ -171,6 +223,21 @@ export const SEARCH_INDEX = [
     "title": "",
     "headers": [],
     "path": "/notes/tools/linux.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "工具开发",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "link": "#目录",
+        "children": []
+      }
+    ],
+    "path": "/notes/tools/",
     "pathLocale": "/",
     "extraFields": []
   },

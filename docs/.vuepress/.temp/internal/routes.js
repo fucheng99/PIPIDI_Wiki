@@ -10,11 +10,16 @@ export const routes = Object.fromEntries([
   ["/notes/backend/", { loader: () => import(/* webpackChunkName: "notes_backend_index.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/backend/index.html.js"), meta: {"title":"后端开发"} }],
   ["/notes/frontend/javascript.html", { loader: () => import(/* webpackChunkName: "notes_frontend_javascript.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/frontend/javascript.html.js"), meta: {"title":""} }],
   ["/notes/frontend/react.html", { loader: () => import(/* webpackChunkName: "notes_frontend_react.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/frontend/react.html.js"), meta: {"title":""} }],
-  ["/notes/frontend/", { loader: () => import(/* webpackChunkName: "notes_frontend_index.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/frontend/index.html.js"), meta: {"title":"前端开发"} }],
+  ["/notes/frontend/", { loader: () => import(/* webpackChunkName: "notes_frontend_index.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/frontend/index.html.js"), meta: {"title":"ICTest开发"} }],
   ["/notes/frontend/vue.html", { loader: () => import(/* webpackChunkName: "notes_frontend_vue.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/frontend/vue.html.js"), meta: {"title":"Vue.js 学习笔记"} }],
+  ["/notes/ICtest/javascript.html", { loader: () => import(/* webpackChunkName: "notes_ICtest_javascript.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/ICtest/javascript.html.js"), meta: {"title":""} }],
+  ["/notes/ICtest/react.html", { loader: () => import(/* webpackChunkName: "notes_ICtest_react.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/ICtest/react.html.js"), meta: {"title":""} }],
+  ["/notes/ICtest/", { loader: () => import(/* webpackChunkName: "notes_ICtest_index.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/ICtest/index.html.js"), meta: {"title":"IC测试开发"} }],
+  ["/notes/ICtest/vue.html", { loader: () => import(/* webpackChunkName: "notes_ICtest_vue.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/ICtest/vue.html.js"), meta: {"title":"Vue.js 学习笔记"} }],
   ["/notes/tools/docker.html", { loader: () => import(/* webpackChunkName: "notes_tools_docker.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/tools/docker.html.js"), meta: {"title":""} }],
   ["/notes/tools/git.html", { loader: () => import(/* webpackChunkName: "notes_tools_git.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/tools/git.html.js"), meta: {"title":""} }],
   ["/notes/tools/linux.html", { loader: () => import(/* webpackChunkName: "notes_tools_linux.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/tools/linux.html.js"), meta: {"title":""} }],
+  ["/notes/tools/", { loader: () => import(/* webpackChunkName: "notes_tools_index.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/tools/index.html.js"), meta: {"title":"工具开发"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 
