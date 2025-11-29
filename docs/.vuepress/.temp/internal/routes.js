@@ -1,7 +1,7 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/ABOUT.html", { loader: () => import(/* webpackChunkName: "ABOUT.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/ABOUT.html.js"), meta: {"title":"关于"} }],
+  ["/about.html", { loader: () => import(/* webpackChunkName: "about.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/about.html.js"), meta: {"title":"关于"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
   ["/notes/", { loader: () => import(/* webpackChunkName: "notes_index.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/index.html.js"), meta: {"title":"学习笔记"} }],
   ["/notes/backend/api.html", { loader: () => import(/* webpackChunkName: "notes_backend_api.html" */"C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/backend/api.html.js"), meta: {"title":""} }],
