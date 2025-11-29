@@ -3,8 +3,8 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { viteBundler } from '@vuepress/bundler-vite' // Add this import
 
 export default defineUserConfig({
-  // 基础路径
-  base: '/',
+  // 对于 GitHub Pages，base 通常设置为仓库名称
+  base: '/PIPIDI_Wiki/',
   
   // 网站语言
   lang: 'zh-CN',
