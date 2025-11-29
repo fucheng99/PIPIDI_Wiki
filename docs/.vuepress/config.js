@@ -42,7 +42,7 @@ export default defineUserConfig({
           { text: '工具使用', link: '/notes/tools/' },
         ]
       },
-      { text: '👤 关于', link: '/ABOUT.md' },
+      { text: '👤 关于', link: '/about.md' },
       { text: '⭐ GitHub', link: 'https://github.com/fucheng99/PIPIDI_Wiki' }
     ],
 

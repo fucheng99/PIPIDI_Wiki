@@ -32,7 +32,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/ABOUT.html",
+    "path": "/about.html",
     "pathLocale": "/",
     "extraFields": []
   },
