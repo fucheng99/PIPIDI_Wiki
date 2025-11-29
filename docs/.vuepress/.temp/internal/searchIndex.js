@@ -68,42 +68,6 @@ export const SEARCH_INDEX = [
   {
     "title": "",
     "headers": [],
-    "path": "/notes/backend/api.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/notes/backend/database.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/notes/backend/nodejs.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "后端开发",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "link": "#目录",
-        "children": []
-      }
-    ],
-    "path": "/notes/backend/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/notes/frontend/javascript.html",
     "pathLocale": "/",
     "extraFields": []
@@ -156,6 +120,78 @@ export const SEARCH_INDEX = [
   {
     "title": "",
     "headers": [],
+    "path": "/notes/backend/api.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/notes/backend/database.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/notes/backend/nodejs.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "后端开发",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "link": "#目录",
+        "children": []
+      }
+    ],
+    "path": "/notes/backend/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/notes/tools/docker.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/notes/tools/git.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/notes/tools/linux.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "工具开发",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "link": "#目录",
+        "children": []
+      }
+    ],
+    "path": "/notes/tools/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/notes/ICtest/javascript.html",
     "pathLocale": "/",
     "extraFields": []
@@ -202,42 +238,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/notes/ICtest/vue.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/notes/tools/docker.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/notes/tools/git.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/notes/tools/linux.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "工具开发",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "link": "#目录",
-        "children": []
-      }
-    ],
-    "path": "/notes/tools/",
     "pathLocale": "/",
     "extraFields": []
   },
