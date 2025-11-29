@@ -1,5 +1,5 @@
 import comp from "C:/Users/46192/Desktop/Wiki/repo/docs/.vuepress/.temp/pages/notes/ICtest/index.html.vue"
-const data = JSON.parse("{\"path\":\"/notes/ICtest/\",\"title\":\"IC测试开发\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"git\":{},\"filePathRelative\":\"notes/ICtest/README.md\"}")
+const data = JSON.parse("{\"path\":\"/notes/ICtest/\",\"title\":\"IC测试开发\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"git\":{\"updatedTime\":1764429348000,\"contributors\":[{\"name\":\"fucheng99\",\"username\":\"fucheng99\",\"email\":\"461926138@qq.com\",\"commits\":1,\"url\":\"https://github.com/fucheng99\"}],\"changelog\":[{\"hash\":\"9d63ddc6b7b972172a901aa3dce071b318f58cb7\",\"time\":1764429348000,\"email\":\"461926138@qq.com\",\"author\":\"fucheng99\",\"message\":\"optimize web ui\"}]},\"filePathRelative\":\"notes/ICtest/README.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
